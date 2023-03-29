@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</html>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm JW Choi, and I'm a student. I have 3 years of experience in your field. I'm passionate
+                about achieving better, and I'm always looking for new challenges.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscling elit. Nullam ullamcorper odio vel nunc accumsan, ut feugiat nulla interdum. Sed eu tortor purus.</p>
+                <button onclick="alert('This is Project 3')">View Details</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message reequired"></textarea>
+                <button type="submit" onclick="alert('Thanks for your message!')">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
