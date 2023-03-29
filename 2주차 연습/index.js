@@ -1,3 +1,4 @@
+const output = document.getElementById('output');
 const rows = 5; // number of rows in the pyramid
 let pyramid = ""; // initialize an empty string to store the pyramid shape
 
@@ -12,8 +13,10 @@ for (let i = 1; i <= rows; i++) {
     pyramid += "*";
   }
   // add a new line character to separate each row of the pyramid shape
-  pyramid += "\n";
+ // pyramid += "\n";
+
+  output.innerHTML += pyramid + '<br>';
 }
 
 // print the completed pyramid shape to the console
-console.log(pyramid);
+//console.log(pyramid);
