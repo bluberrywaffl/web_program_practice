@@ -13,9 +13,10 @@ sayHello() {
 
 //객체 생성하기
 const person1 = new Person("Kim", 24);
-console.log(person1.name);
-person1.sayHello();
+console.log(person1.name); //Kim
+person1.sayHello(); //안녕하세요, Kim입니다.
 
+//객체 생성
 const person2 = new Person("Jim", 24);
-console.log(person2.name);
-person2.sayHello();
+console.log(person2.name); //Jim
+person2.sayHello(); //안녕하세요, Jim입니다.

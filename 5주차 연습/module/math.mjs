@@ -3,7 +3,7 @@ export function add(x, y) {
 }
 
 export function subtract(x, y) {
-    return x = y;
+    return x - y;
 }
 
 export function multiply(x, y) {
@@ -18,3 +18,9 @@ export function divide(x, y) {
         return y / x;
     }
 }
+
+//기본 모듈로 내보내기
+//export default {
+//   add: add,
+//   subtract: subtract,
+// };

@@ -5,10 +5,10 @@ class Animal {
     }
 
     speak() {
-        console.log(`${this.name}이(가) 소리를 냅니다.`)
+        console.log(`${this.name}이(가) 소리를 냅니다.`);
     }
 }
-
+//자식 클래서 정의
 class Dog extends Animal {
     constructor(name) {
         super(name);
@@ -40,10 +40,10 @@ class Lion extends Animal {
 
 //객체 생성하기
 const dog = new Dog("뽀삐");
-dog.speak();
+dog.speak(); //뽀삐이(가) 멍멍 짖습니다.
 dog.fetch();
 
-const lion = new Lion("심바");
+const lion = new Lion("레오");
 lion.speak();
 lion.fetch();
 
